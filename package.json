@@ -3,13 +3,16 @@
   "version": "0.1.0",
   "description": "Javascript class project 2",
   "main": "index.js",
+  "repository": "https://github.com/ElOchi/node-project-2.git",
   "scripts": {
     "test": "mocha"
   },
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "csv": "^1.1.0"
+    "csv": "^1.1.0",
+    "fs": "0.0.1-security",
+    "prompt": "^1.0.0"
   },
   "devDependencies": {
     "chai": "^3.5.0",
