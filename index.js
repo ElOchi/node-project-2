@@ -1,8 +1,9 @@
 var csv = require('csv');
 var fs = require('fs');
 var prompt = require('prompt-sync')();
-var help = require('./help');
 var color = require('color');
+var help = require('./help');
+var addClient = require('./addClient');
 
 function processCsv(fileName, callBack) {
     fs.readFile(fileName, function(err, data) {
